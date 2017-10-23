@@ -1,0 +1,5 @@
+/target/
+.DS_Store
+GP-credentials.json
+WCS-credentials.json
+gp_to_wcs.log
