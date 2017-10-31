@@ -48,9 +48,7 @@ This utility currently supports JAVA
 
 Watson Conversation Globalization CLI (Command Line Interface) Tool is designed for
 translating watson conversation json files from a source language to a given target language using Globalization Pipeline Service
-on command line. Read about it [here](https://www.ibm.com/blogs/bluemix/2017/10/translate-watson-conversation-chatbots/) or watch the following video to get started.
-
-<center><a href="https://youtu.be/vauDA1h1mbY" target=""><img src="images/multilingual.png" alt="Video demo" width="500" height="350" border="10" /></a></center>
+on command line. Read about it [here](https://www.ibm.com/blogs/bluemix/2017/10/translate-watson-conversation-chatbots/) or watch the [video](https://youtu.be/vauDA1h1mbY) to get started.
 
 ---
 ## <a name="TOC-Prerequisites"></a>Prerequisites
@@ -147,7 +145,7 @@ java -jar gp-watson-conversation-0.0.1-SNAPSHOT-with-dependencies.jar help
    ...
    ```
    
-3. AFter running wcs_to_gp utility, wait for some time before you run gp_to_wcs utility. Monitor the status of translated resource strings (key value pairs) on GP and run gp_to_wcs utility after all the resource strings have been translated.
+3. After running wcs_to_gp utility, wait for some time before you run gp_to_wcs utility. Monitor the status of translated resource strings (key value pairs) on GP and run gp_to_wcs utility after all the resource strings have been translated.
    
 ---
 ### <a name="TOC-Guidance"></a>Work Flow Guidance
